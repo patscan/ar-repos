@@ -8,3 +8,5 @@ class Createtasks < ActiveRecord::Migration
     end
   end
 end
+
+# tasks.find_by_list_id(2).deletetasks.find_by_list_id(2).delete
