@@ -10,6 +10,10 @@ class List < ActiveRecord::Base
     tasks.delete(task)
     task # return the task
   end
+
+  def show
+    tasks.each { |task| puts task }
+  end
 end
 
 
